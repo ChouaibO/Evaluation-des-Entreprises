@@ -8,3 +8,4 @@ openai
 pdfplumber
 pandas
 openpyxl
+crewai[azure-ai-inference]
