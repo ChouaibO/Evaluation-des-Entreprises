@@ -118,10 +118,10 @@ def formater_mad(valeur):
     if abs(valeur) >= 1_000_000_000:
         return f"{valeur / 1_000_000_000:.2f} Md MAD"
     if abs(valeur) >= 1_000_000:
-        return f"{valeur / 1_000_000:.1f} M MAD"
+        return f"{valeur / 1_000_000:.1f} Md MAD"
     if abs(valeur) >= 1_000:
-        return f"{valeur / 1_000:.1f} k MAD"
-    return f"{valeur:,.0f} MAD"
+        return f"{valeur / 1_000:.1f}  MMAD"
+    return f"{valeur:,.0f} MMAD"
 # ── GRAPHIQUES ────────────────────────────────────────────────────────────────
 
 def graphique_fcf(fcf_list: list):
