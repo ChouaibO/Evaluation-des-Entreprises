@@ -304,9 +304,5 @@ Cette commande lance la Phase 1 (collecte, DCF, comparables) avec une pondérati
 
 ---
 
-## Notes complémentaires
 
-- **Devise** : toutes les données sont normalisées et traitées en dirhams marocains (MAD) brut tout au long du pipeline, quelle que soit l'unité d'origine du document soumis (MAD, kMAD, MMAD, Md MAD).
-- **Limites d'itération** : l'agent Critique dispose d'un maximum de 3 itérations de correction avant validation forcée des résultats, avec mention explicite dans le rapport.
-- **Seuils de contrôle qualité** : écart maximal toléré entre DCF et Multiples de 30% ; poids maximal de la valeur terminale de 85% de la valeur DCF.
 
